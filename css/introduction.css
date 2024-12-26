@@ -1,0 +1,162 @@
+:root {
+    font-family: "Aboreto", serif;
+    font-style: normal;
+    background-image: url(../images/image3.svg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main-header {
+    border-radius: 50px;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2%;
+}
+
+.main-nav {
+    font-family: Baskervville;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: #fff;
+    border-radius: 50px;
+    padding: 10px;
+    width: auto;
+}
+
+.main-nav ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav li {
+    list-style: none;
+    margin: 0 35px;
+}
+
+.main-nav a {
+    color: #3b406a;
+    text-decoration: none;
+    text-shadow: none;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.main-nav a:hover {
+    color: #0015da;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.main-nav a.selected {
+    color: #0015da;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.back-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.back-a {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    border-radius: 35px;
+    background: #fff;
+    width: 80%;
+    text-align: center;
+}
+
+.introduction-heading {
+    color: #000;
+    font-family: Baskervville;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 0;
+}
+
+.introduction-text {
+    color: #000;
+    font-family: Baskervville;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 85%;
+    margin-bottom: 4%;
+}
+
+#main-footer {
+    font-family: Aboreto;
+    font-size: 13.642px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#main-footer img {
+    width: 27%;
+    bottom: 0;
+    position: fixed;
+}
+
+.footer-text {
+    font-family: "Aboreto", serif;
+    bottom: 0;
+    position: fixed;
+    margin-left: 9.8%;
+    padding-bottom: 3.8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#footer-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#footer-nav txt {
+    color: #3b406a;
+}
+
+#footer-nav a {
+    text-decoration: none;
+}
